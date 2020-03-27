@@ -139,22 +139,9 @@
                 <a  id="hpsall" style="padding: 10px; font-size: 12px; margin: 3px; "  class="btn btn-danger" >Delete</a><a id="checkall" style="padding: 10px; font-size: 12px; margin: 3px; " class="btn btn-success" >Select All</a> <a id="uncheckall" style="padding: 10px; font-size: 12px; margin: 3px; " class="btn btn-success" >Unselect All</a>
             </p>
         </div>
-        <table class="table">
-            <thead>
-                <tr>
-                    <th scope="col" style="display: flex;" ></th>
-                    <th scope="col">NO</th>
-                    <th scope="col">USERNAME</th>
-                    <th scope="col">NAME</th>
-                    <th scope="col">CHAT ID</th>
-                    <th scope="col">DATE</th>
-                    <th scope="col">MESSAGE</th>
-                    <th scope="col">&nbsp;</th>
-                </tr>
-            </thead>
-            <tbody id="data" >
-            </tbody>
-        </table>
+        <div id="data" >
+            
+        </div>
     </div>
 </div>
 <footer class="tm-footer row tm-mt-small">

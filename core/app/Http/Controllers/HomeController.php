@@ -26,7 +26,12 @@ class HomeController extends Controller
     {
         $data=DB::table('message')
         ->orderBy('date','desc')
-        ->get();
+        ->paginate(20);
+        // echo "<pre>";
+        // print_r($data);
+        // echo $data->fragment('foo')->links();
+        // echo "</pre>";
+        // die();
         // echo "<pre>";
         // print_r($data);
         // echo "</pre>";
@@ -36,7 +41,7 @@ class HomeController extends Controller
     {
         $data=DB::table('message')
         ->orderBy('date','desc')
-        ->get();
+        ->paginate(20);
         // echo "<pre>";
         // print_r($data);
         // echo "</pre>";
